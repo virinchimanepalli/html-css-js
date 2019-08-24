@@ -1,2 +1,3 @@
-# myfirstprocject
-basic web pagr
+# myfirstproject
+basic web page of my version
+

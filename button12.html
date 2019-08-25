@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>REMINDER  PAGE</title>
+</head>
+<body>
+    <form id="form1">
+        type: <input name="name" type="text" size="25">
+    </form>
+    <button onclick  = "outputname()">submit</button> 
+    
+    <script type="text/javascript">
+    function outputname(){
+            var x,y,name;
+            x=document.getElementById("form1");
+            y=x.elements["name"].value;
+            document.write(y);
+    }
+        
+        
+        </script>
+</body>
+</html>
